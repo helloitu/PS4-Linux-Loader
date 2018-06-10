@@ -95,6 +95,18 @@ struct sendto_args {
 	int	tolen;
 };
 
+struct ip_debug{
+	int ip1;
+	int ip2;
+	int ip3;
+	int ip4;
+	int port;
+};
+struct ip_debug ipdebug;
+
+
+
+
 struct auditinfo_addr {
 	/*
 	4	ai_auid;
